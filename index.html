@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/weather.js" defer></script>
+  <title>Weather</title>
+</head>
+<body>
+  <div id="container">
+    <div id="app">
+      <div id="header">
+        <input type="text" id="searchBar" placeholder="City name ... " >
+        <button id="searchButton"><span class="material-symbols-outlined">search</button>
+      </div>
+
+      <div id="main-content">
+        <div id="content-left">
+          <div id="timeTabel">
+            <P id="currentWheather">CURRENT WHEATHER</P>
+            <p id="time"></p>
+            <p id="city"></p>
+          </div>
+         
+         <img id="icon" src="" alt="">
+          <div id="tempFeel">
+            <div id="temp"></div>
+            <div id="feel"></div>
+          </div>
+          <div id="desc"></div>
+
+        </div>
+
+        <div id="content-right">
+          
+          <div class="content-right-string">
+            <p>Min./Max. Temprature</p>
+            <p id="maxMin">
+              <span  class="material-symbols-outlined">arrow_downward</span><span id="min"></span>
+              <span  class="material-symbols-outlined">arrow_upward</span><span id="max"></span>
+            </p>
+          </div>
+          <div class="content-right-string">
+            <p>Wind</p>
+            <p id="wind"></p>
+          </div>
+          <div  class="content-right-string">
+            <p>Gust</p>
+            <p id="gust"></p>
+          </div>
+          <div class="content-right-string">
+            <p>Clouds</p>
+            <p id="clouds"></p>
+
+          </div>
+        
+        
+
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+</html>
